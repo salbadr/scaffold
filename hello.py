@@ -1,8 +1,15 @@
 def add(a, b):
     return a + b
 
+def subtract(a, b):
+    return a - b
 
-x = 1
+x = 4
 y = 2
-result = add(x, y)
-print(f"The result of adding {x} and {y} is {result}")
+
+result1 = add(x, y)
+result2 = subtract(x,y)
+
+print(f"The result of adding {x} and {y} is {result1}")
+print(f"The result of subtracting {x} and {y} is {result2}")
+
