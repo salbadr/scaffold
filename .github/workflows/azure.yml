@@ -28,13 +28,10 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: Install dependencies
-        run: make install
+        run: make install-azure
           
       - name: Run lint
         run: make lint
           
       - name: Run test
         run: make test
-          
-      - name: Run format
-        run: make format
