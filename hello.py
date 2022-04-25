@@ -10,6 +10,6 @@ y = 2
 result1 = add(x, y)
 result2 = subtract(x,y)
 
-print(f"The result of adding {x} and {y} is {result1}")
-print(f"The result of subtracting {x} and {y} is {result2}")
+print("The result of adding %2d and %2d is %2d"%(x,y,result1))
+print("The result of subtracting %2d and %2d is %2d"%(x,y,result2))
 
